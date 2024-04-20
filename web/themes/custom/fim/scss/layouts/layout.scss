@@ -1,0 +1,26 @@
+.layout-container {
+  @include wf-text;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  a {
+    color: $wf-link-gray;
+    &:hover,
+    &:focus {
+      color: $wf-gray;
+    }
+    &:visited {
+
+    }
+  }
+  #block-fim-branding {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+    > a {
+      img {
+        height: 2rem;
+      }
+    }
+  }
+}

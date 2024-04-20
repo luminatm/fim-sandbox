@@ -11,6 +11,10 @@
         {
             "type": "path",
             "url": "upstream-configuration"
+        },
+	{
+            "type": "vcs",
+            "url": "https://github.com/luminatm/fim-sandbox.git"
         }
     ],
     "require": {
@@ -21,7 +25,9 @@
         "pantheon-systems/drupal-integrations": "^10",
         "cweagans/composer-patches": "^1.7",
         "drush/drush": "^11 || ^12",
-        "drupal/bootstrap": "^3.30"
+        "drupal/bootstrap": "^3.30",
+        "drupal/stable": "^2.0",
+	"luminatm/fim": "dev-master"
     },
     "require-dev": {
         "drupal/core-dev": "^10"

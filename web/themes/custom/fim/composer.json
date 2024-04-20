@@ -1,0 +1,20 @@
+{
+    "name": "luminatm/fim",
+    "type": "drupal-theme",
+    "description": "A custom theme for the Food is Medicine microsite based on Stable.",
+    "require": {
+        "composer/installers": "^1.2"
+    },
+    "extra": {
+        "installer-paths": {
+            "web/themes/custom/{$name}/": ["type:drupal-theme"]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tahir Madyun",
+            "email": "tahir.madyun@luminacorps.com"
+        }
+    ]
+}

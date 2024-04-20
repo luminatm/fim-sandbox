@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "sass": "^1.75.0"
+  },
+  "name": "fim-sandbox",
+  "description": "This is Pantheon's recommended starting point for forking new [Drupal](https://www.drupal.org/) upstreams that work with the Platform's Integrated Composer build process. It is also the Platform's standard Drupal 9 upstream.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-imagemin": "^9.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
