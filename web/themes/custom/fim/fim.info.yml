@@ -2,9 +2,9 @@ name: 'FiM'
 type: theme
 base theme: stable
 description: 'A custom theme for the Food is Medicine microsite based on Stable.'
-package: Custom
-core_version_requirement: ^10
+core_version_requirement: ^9.5 || ^10
 libraries:
   - fim/main-styles
 
 version: '0.0.1'
+
