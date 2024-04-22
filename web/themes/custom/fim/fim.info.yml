@@ -1,4 +1,4 @@
-name: Food is Medicine
+name: 'Food is Medicine'
 type: theme
 base theme: stable
 description: 'A custom theme for the Food is Medicine microsite based on Stable.'
@@ -6,3 +6,5 @@ package: Custom
 core_version_requirement: ^10
 libraries:
   - fim/main-styles
+
+version: '0.x-1.0'
