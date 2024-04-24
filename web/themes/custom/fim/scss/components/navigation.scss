@@ -1,0 +1,31 @@
+.fim-navigation {
+  > ul {
+    //align-items: center;
+    align-items: flex-start;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    > li {
+      > ul {
+        background-color: $wf-white;
+        padding: 0;
+        //position: absolute;
+        z-index: 1;
+        border-width: 0px;
+        border-style: solid;
+        border-color: $wf-link-gray;
+        > ul {
+          list-style: none;
+          padding: 0;
+        }
+      }
+      &:hover {
+        > ul {
+          display: block;
+        }
+      }
+    }
+  }
+}
