@@ -41,7 +41,8 @@
         {{ link(item.title, item.url) }}
         {% if item.below %}
           <button aria-controls="{{ current_id }}-menu" aria-haspopup="true" aria-expanded="false">{{ '▼' }}</button>
-          <ul id="{{ current_id }}-menu" hidden>
+{#          <ul id="{{ current_id }}-menu" hidden>#}
+          <ul id="{{ current_id }}-menu">
             {{ menus.menu_links(item.below, attributes, menu_level + 1, current_id ~ '-') }}
           </ul>
         {% endif %}

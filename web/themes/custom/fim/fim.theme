@@ -4,3 +4,20 @@
  * @file
  * Functions to support theming in the Food is Medicine theme.
  */
+
+/**
+ * Implements hook_preprocess_HOOK() for block templates.
+ */
+function fim_preprocess_block(&$variables) {
+  // Check if the block is the main navigation block
+  if ($variables['plugin_id'] == 'system_menu_block:main') {
+    // Add 'fim-navigation' class to the block's attributes
+    $variables['attributes']['class'][] = 'fim-navigation';
+  }
+
+  // Check if the block is the footer navigation block
+  if ($variables['plugin_id'] == 'system_menu_block:footer') {
+    // Add 'fim-footer-navigation' class to the block's attributes
+    $variables['attributes']['class'][] = 'fim-navigation-footer';
+  }
+}

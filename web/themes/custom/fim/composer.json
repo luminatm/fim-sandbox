@@ -1,5 +1,5 @@
 {
-    "name": "luminatm/fim",
+    "name": "luminatm/fim-sandbox",
     "type": "drupal-theme",
     "description": "A custom theme for the Food is Medicine microsite based on Stable.",
     "require": {
@@ -16,5 +16,10 @@
             "name": "Tahir Madyun",
             "email": "tahir.madyun@luminacorps.com"
         }
-    ]
+    ],
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
 }

@@ -308,13 +308,24 @@ template {
   display: none;
 }
 
-.layout-container > header {
-  background-color: #E0E0E0;
+.fim-admin-tabs > ul {
+  margin: 0;
+  padding: 0;
 }
 
 .layout-container > footer {
   background-color: #E0E0E0;
   margin-top: auto;
+}
+.layout-container > footer .fim-navigation-footer > ul {
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.layout-container > header {
+  background-color: #E0E0E0;
 }
 
 .layout-container {
@@ -340,4 +351,28 @@ template {
 }
 .layout-container #block-fim-branding > a img {
   height: 2rem;
+}
+
+.fim-navigation > ul {
+  align-items: flex-start;
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.fim-navigation > ul > li > ul {
+  background-color: #FFFFFF;
+  padding: 0;
+  z-index: 1;
+  border-width: 0px;
+  border-style: solid;
+  border-color: #616161;
+}
+.fim-navigation > ul > li > ul > ul {
+  list-style: none;
+  padding: 0;
+}
+.fim-navigation > ul > li:hover > ul {
+  display: block;
 }
